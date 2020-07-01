@@ -58,7 +58,7 @@ const onClickOnCancel = () => {
 }
 
 const onClickOnConfirm = () => {
-    alert(`Retirada de efectivo de ${model.quantity} de la cuenta ${model.account}`);
+    alert(`Retirada de efectivo de ${model.quantity}€ de la cuenta ${model.account}`);
 }
 
 const onClickOnAccount = (el) => {
