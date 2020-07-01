@@ -1,0 +1,25 @@
+- Integrando nuestros scripts en el HTML
+    - head vs body
+- Objetos globales: window, screen, document
+- Tarea I: Generar un teclado aleatorio
+    - Generar array de numeros
+    - Map para crear los botones
+    - Seleccionar el teclado
+    - Hacer apend de los botones
+    - Añadir eventos de click y clase CSS
+    - Orden aleatorio
+- Tarea II: Escribir los números en el campo
+    - Seleccionar el campo
+    - Añadir el número al campo 
+- Tarea III: Clear
+- Tarea IV: Siguiente pantalla
+    - Añadir clase hidden y quitarla de la otra vista
+- Tarea V: Permitir seleccionar una cuenta
+    - Quitar clase "active" de todas
+    - Añadir clase "active" a la seleccionada
+    - Leer atributo y actualizar modelo
+- Tarea VI: Permitir seleccionar una cantidad
+    - Quitar clase "active" de todas
+    - Añadir clase "active" a la seleccionada
+    - Leer atributo y actualizar modelo
+- Tarea VII: Botón cancelar y ok

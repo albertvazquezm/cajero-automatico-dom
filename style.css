@@ -1,0 +1,130 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto Mono", monospace;
+}
+button {
+    font-family: "Roboto Mono", monospace;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atm-screen {
+    width: 700px;
+    height: 700px;
+    background: #eee;
+    padding: 50px;
+}
+
+.input {
+    width: 100%;
+    height: 100px;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input__text {
+    font-size: 70px;
+    color: #333;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: row;
+    margin: 10px -10px 0 -10px;
+    flex-wrap: wrap;
+}
+.keyboard__key {
+    border: 0;
+    flex: 1;
+    min-width: 170px;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+.keyboard__key-action {
+    font-size: 20px;
+}
+.keyboard__key--red {
+    color: #fff;
+    background: red;
+}
+.keyboard__key--green {
+    color: #fff;
+    background: green;
+}
+.keyboard-actions {
+    margin: 0 -10px;
+    display: flex;
+}
+
+table {
+    background: #fff;
+    width: 100%;
+}
+table tr {
+    cursor: pointer;
+}
+table td {
+    padding: 5px;
+}
+
+.withdraw__accounts,
+.withdraw__quantity,
+.withdraw__actions {
+    margin-bottom: 30px;
+}
+
+.withdraw__quantity {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.withdraw__quantity-item {
+    min-width: 200px;
+    height: 100px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.withdraw__actions {
+    display: flex;
+    margin: 0 -20px 0 -20px;
+}
+
+.withdraw__actions button {
+    flex: 1;
+    margin: 20px;
+    border: 0;
+    height: 50px;
+    color: #fff;
+}
+.bg-red {
+    background: red;
+}
+.bg-green {
+    background: green;
+}
+
+.active {
+    background: #71C7FF;
+}
+
+.hidden {
+    display: none;
+}

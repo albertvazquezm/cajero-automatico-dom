@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <title>Cajero automático</title>
+    <meta charset="utf-8"/>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="atm-screen" id="screen-pin">
+            <div class="input"><span class="input__text" id="input-text"></span></div>
+            <div class="keyboard" id="keyboard">
+                <!--<button class="keyboard__key">
+                    1
+                </button>
+                <button class="keyboard__key">
+                    2
+                </button>
+                <button class="keyboard__key">
+                    3
+                </button>
+                <button class="keyboard__key">
+                    4
+                </button>
+                <button class="keyboard__key">
+                    5
+                </button>
+                <button class="keyboard__key">
+                    6
+                </button>
+                <button class="keyboard__key">
+                    7
+                </button>
+                <button class="keyboard__key">
+                    8
+                </button>
+                <button class="keyboard__key">
+                    9
+                </button>
+                
+                <button class="keyboard__key">
+                    0
+                </button>
+                -->
+
+                
+            </div>
+            <div class="keyboard-actions">
+                <button id="clear-button" class="keyboard__key keyboard__key-action keyboard__key--red">
+                    CLEAR
+                </button>
+                <button id="ok-button" class="keyboard__key keyboard__key-action keyboard__key--green">
+                    OK
+                </button>
+            </div>
+        </div>
+        <div id="screen-account" class="atm-screen hidden" id="screen-accounts">
+            <div class="withdraw">
+                <h3>Cuenta</h3>
+                <div class="withdraw__accounts">
+                    <table id="accounts-table">
+                        <tr data-account="ES78 7245 1196 1700 4827" class="active">
+                            <td>Ahorros</td>
+                            <td>ES78 7245 1196 1700 4827</td>
+                            <td>2500&euro;</td>
+                        </tr>
+                        <tr data-account="ES78 1162 8865 1632 1965">
+                            <td>Corriente</td>
+                            <td>ES78 1162 8865 1632 1965</td>
+                            <td>510&euro;</td>
+                        </tr>
+                        <tr data-account="ES78 9917 6123 0927 6554">
+                            <td>Negocio</td>
+                            <td>ES78 9917 6123 0927 6554</td>
+                            <td>5800&euro;</td>
+                        </tr>
+                    </table>
+                </div>
+                <h3>Cantidad</h3>
+                <div class="withdraw__quantity">
+                    <div data-quantity="20" class="withdraw__quantity-item">
+                        20
+                    </div>
+                    <div data-quantity="50" class="withdraw__quantity-item">
+                        50
+                    </div>
+                    <div data-quantity="100" class="withdraw__quantity-item">
+                        100
+                    </div>
+                    <div data-quantity="200" class="withdraw__quantity-item">
+                        200
+                    </div>
+                    <div data-quantity="500" class="withdraw__quantity-item active">
+                        500
+                    </div>
+                    <div data-quantity="1000" class="withdraw__quantity-item">
+                        1000
+                    </div>
+                </div>
+                <div class="withdraw__actions">
+                    <button class="bg-red" id="cancel">Cancel</button>
+                    <button class="bg-green" id="confirm">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
